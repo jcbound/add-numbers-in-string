@@ -11,10 +11,12 @@ public class Main {
     // 注意，若参数为null，则当作0处理，即add("123", null)=="123", add(null, null)=="0"
     public static String add(String a, String b) {
         if(a==null){
-            return b;
-        }else if (b==null){
-            return a;
-        }else return String.valueOf(Integer.parseInt(a) + Integer.parseInt(b));
+             a="0";
+        }
+        if (b==null){
+            b="0";
+        } return String.valueOf(Integer.parseInt(a) + Integer.parseInt(b));
+
     }
 }
 
