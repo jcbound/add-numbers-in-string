@@ -27,7 +27,7 @@ public class Main {
         } else {
             bInt = Integer.parseInt(b);
         }
-        int i =aInt +bInt;
+        int i = aInt + bInt;
         return String.valueOf(i);
 
     }
