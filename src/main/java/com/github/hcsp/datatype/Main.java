@@ -16,7 +16,7 @@ public class Main {
         if (b == null) {
             b = String.valueOf(0);
         }
-        int x = Integer.parseInt(a)+ Integer.parseInt(b);
+        int x = Integer.parseInt(a) + Integer.parseInt(b);
         return String.valueOf(x);
     }
 }
