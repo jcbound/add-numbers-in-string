@@ -12,7 +12,7 @@ public class Main {
     public static String add(String a, String b) {
         if (a == null && b == null) {
             return String.valueOf(0);
-        }else{
+        } else {
             if (a == null) {
                 return String.valueOf(0 + Integer.parseInt(b));
             }
